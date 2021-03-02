@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPhoneStore.Domain", "IPhoneStore.Domain\IPhoneStore.Domain.csproj", "{AD57333F-9AC9-4902-9502-115271B399DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPhoneStore.WebUI", "IPhoneStore.WebUI\IPhoneStore.WebUI.csproj", "{AA8FFB8D-923B-47AF-AB65-BCA49FDDB1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPhoneStore.UnitTests", "IPhoneStore.UnitTests\IPhoneStore.UnitTests.csproj", "{97F3E4F6-5016-4898-9835-66CA48AD67F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD57333F-9AC9-4902-9502-115271B399DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD57333F-9AC9-4902-9502-115271B399DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD57333F-9AC9-4902-9502-115271B399DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD57333F-9AC9-4902-9502-115271B399DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8FFB8D-923B-47AF-AB65-BCA49FDDB1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8FFB8D-923B-47AF-AB65-BCA49FDDB1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8FFB8D-923B-47AF-AB65-BCA49FDDB1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8FFB8D-923B-47AF-AB65-BCA49FDDB1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F3E4F6-5016-4898-9835-66CA48AD67F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F3E4F6-5016-4898-9835-66CA48AD67F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F3E4F6-5016-4898-9835-66CA48AD67F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F3E4F6-5016-4898-9835-66CA48AD67F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7781B636-AB6F-43FA-A395-629FE977470D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿@using IPhoneStore.WebUI.Models
+@using IPhoneStore.WebUI.HtmlHelpers
+@model IPhoneListViewModel
+
+@{
+    ViewBag.Title = "Товары";
+}
+
+@foreach (var p in @Model.Phones)
+{
+    @Html.Partial("Phones",p)
+
+}
+<div >
+    @Html.PageLinks(Model.Pagination,p => Url.Action("List",new { page = p, modelCategory = Model.CurrentModel }))
+</div>
